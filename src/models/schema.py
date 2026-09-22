@@ -4,7 +4,7 @@ from typing import Literal
 
 class Entity(BaseModel):
     id: str
-    type: Literal["Container", "Service", "Port", "Network", "Configuration"]
+    type: Literal["Application", "Container", "Service", "Port", "Network", "Configuration"]
     name: str
 
 
